@@ -1,15 +1,17 @@
-# SplatForge Studio — Downloads
+# SplatForge Studio — Releases
 
 Train, edit, and export **3D Gaussian Splats** on Windows, in one desktop app —
 no terminal, no Python setup.
 
 ## Download
 
-**[⬇ Latest release](https://github.com/userpick05/splatforge-releases/releases/latest)**
+**Installers are no longer published in this repository.** They are now
+distributed privately. If you use SplatForge and need an installer, ask the
+author for access.
 
-Download **all** files for a release (the `.exe` and every `.bin` slice) into
-the same folder, then run the `.exe`. The installer upgrades any previous
-version in place.
+This repository remains the app's **version feed**. Each release here records a
+version, its release notes, and a `SHA256SUMS` file listing the SHA-256 of that
+version's installer files, so an installer you receive can be checked against it.
 
 ## Requirements
 
@@ -25,13 +27,15 @@ when missing.
 
 ## Updates
 
-The app checks this page on launch and offers to download a newer version when
-one is published. You can also run `splatforge update-check` from a terminal.
+The app checks this page on launch and tells you when a newer version exists.
+Its Download button opens the latest release here. To get the installer itself,
+ask the author for access (see **Download** above).
 
 ## About
 
-This repository hosts **published installer builds only**. The source code is
-maintained in a separate private repository.
+This repository holds **release metadata only**: version numbers, release notes
+and installer checksums. The source code is maintained in a separate private
+repository.
 
 _SplatForge is an independent project. It contains no code from GPL-licensed
 splat tools; its dependencies are permissively licensed (see the app's
